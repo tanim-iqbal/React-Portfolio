@@ -26,18 +26,18 @@ export default function PortfolioContainer() {
 
   return (
       <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container-fluid">
         <h1>Tanim Iqbal</h1>
       {/* We are passing the currentPage from state and the function to update it */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav nav-tabs" aria-controls="nav nav-tabs" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navBar" aria-controls="nav nav-tabs" aria-expanded="false" aria-label="Toggle navigation">
+        <span className="navbar-toggler-icon"></span>
       </button>
       </div>
       </nav>
-      {/* Here we are calling the renderPage method which will return a component  */}
+    {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
-    </div>
+    </div>    
   );
 }

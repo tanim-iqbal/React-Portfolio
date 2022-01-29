@@ -1,7 +1,23 @@
 .aboutMe {
     display: flex;
     align-content: center;
-    padding: 10px;
-    margin: auto;
-    background-color: blue;
+    justify-content: center;
+    padding: 25px;
+    font-weight: bold;
+    /* background-color: blue; */
 }
+
+#profile-img{
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* justify-content: center; */
+  }
+
+  .aboutContent {
+      display: flex;
+      justify-content: right;
+      margin-top: 120px;
+      padding: 10px;
+  }
