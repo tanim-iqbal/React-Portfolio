@@ -3,7 +3,7 @@ import React from 'react';
 export default function Resume() {
   return (
     <div>
-      <h1>Tanim Iqbal</h1>
+      <h2>My Experience</h2>
       <p>
       </p>
     </div>
